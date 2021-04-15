@@ -51,7 +51,56 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  }, 
+  },
+  {
+    pid: 3,
+    risk: 3,
+    lpSymbol: 'TSB-BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0xe336b16B7d26B94F3E86Fe124Be5207162C22d90', // TSB-BUSD LP
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 4,
+    risk: 3,
+    lpSymbol: 'TSB-BNB',
+    lpAddresses: {
+      97: '',
+      56: '0x14f18e33c9e4551578cc4ce5243184288f13fe67', // TSB-BNB LP
+    },
+    tokenSymbol: 'TSB',
+    tokenAddresses: {
+      97: '',
+      56: '0xA37F71f092F891757d23Dd350f57C78E8469c026',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
+    risk: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f', // BUSD-BNB LP
+    },
+    tokenSymbol: 'BNB',
+    tokenAddresses: {
+      97: '',
+      56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+
 ]
 
 export default farms
