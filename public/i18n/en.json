@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total RBT burned since launch"
+        "text": "Total TSB burned since launch"
       }
     },
     {
@@ -129,7 +129,7 @@
     {
       "data": {
         "stringId": 322,
-        "text": "Stake RBT, get SYRUP."
+        "text": "Stake TSB, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake RBT tokens, the contract will automatically harvest RBT rewards for you!"
+        "text": "Every time you stake and unstake TSB tokens, the contract will automatically harvest TSB rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "RBT price"
+        "text": "TSB price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 RBT = 1 SYRUP"
+        "text": "1 TSB = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of RBT block emissions each day (10 RBT per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of TSB block emissions each day (10 TSB per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% RBT"
+        "text": "%num% TSB"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend RBT to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend TSB to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% RBT Available"
+        "text": "%num% TSB Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 RBT"
+        "text": "Your amount must be a multiple of 10 TSB"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 RBT"
+        "text": "1 Ticket = 10 TSB"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your RBT cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your TSB cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "RBT prizes to be claimed"
+        "text": "TSB prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve RBT"
+        "text": "Approve TSB"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of RBT block emissions each day (10 RBT per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of TSB block emissions each day (10 TSB per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using RBT-BNB LP tokens, which means you need to stake equal amounts of RBT and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using TSB-BNB LP tokens, which means you need to stake equal amounts of TSB and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get RBT-BNB LP >"
+        "text": "Get TSB-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Bourbon Finance burns the RBT."
+        "text": "The project gets the BNB, Bourbon Finance burns the TSB."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "RBT Stats"
+        "text": "TSB Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New RBT\/block"
+        "text": "New TSB\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "RBT to Harvest"
+        "text": "TSB to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "RBT in Wallet"
+        "text": "TSB in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting RBT"
+        "text": "Collecting TSB"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "RBT to Collect"
+        "text": "TSB to Collect"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake RBT to earn new tokens."
+        "text": "Stake TSB to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "RBT to burn (USD)"
+        "text": "TSB to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest RBT rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest TSB rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy RBT and BNB tokens"
+        "text": "Buy TSB and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get RBT-BNB LP tokens by adding RBT and BNB liquidity"
+        "text": "Get TSB-BNB LP tokens by adding TSB and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your RBT-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your TSB-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for RBT, or keep for your collection!"
+        "text": "Trade in for TSB, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive RBT, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive TSB, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a RBT value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a TSB value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for RBT"
+        "text": "Trade in for TSB"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn RBT"
+        "text": "Stake LP tokens to earn TSB"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The RBT Lottery"
+        "text": "The TSB Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with RBT"
+        "text": "Buy tickets with TSB"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback RBT"
+        "text": "Deposit Fee will be used to buyback TSB"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn RBT"
+        "text": "Stake tokens to earn TSB"
       }
     },
     {

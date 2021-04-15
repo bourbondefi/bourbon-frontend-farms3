@@ -66,10 +66,58 @@
 		"type": "function"
 	},
 	{
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
 		"inputs": [
 			{
-				"internalType": "contract RbtToken",
-				"name": "_rbt",
+				"internalType": "uint256",
+				"name": "_pid",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_allocPoint",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint16",
+				"name": "_depositFeeBP",
+				"type": "uint16"
+			},
+			{
+				"internalType": "bool",
+				"name": "_withUpdate",
+				"type": "bool"
+			}
+		],
+		"name": "set",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "contract TsbToken",
+				"name": "_tsb",
 				"type": "address"
 			},
 			{
@@ -84,7 +132,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_rbtPerBlock",
+				"name": "_tsbPerBlock",
 				"type": "uint256"
 			}
 		],
@@ -161,41 +209,6 @@
 		"type": "event"
 	},
 	{
-		"inputs": [],
-		"name": "renounceOwnership",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_pid",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_allocPoint",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint16",
-				"name": "_depositFeeBP",
-				"type": "uint16"
-			},
-			{
-				"internalType": "bool",
-				"name": "_withUpdate",
-				"type": "bool"
-			}
-		],
-		"name": "set",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
 				"internalType": "address",
@@ -237,19 +250,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "address",
-				"name": "newOwner",
-				"type": "address"
-			}
-		],
-		"name": "transferOwnership",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "uint256",
 				"name": "_multiplierNumber",
 				"type": "uint256"
@@ -277,11 +277,11 @@
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "_rbtPerBlock",
+				"name": "_tsbPerBlock",
 				"type": "uint256"
 			}
 		],
-		"name": "updateRbtPerBlock",
+		"name": "updateTsbPerBlock",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -444,7 +444,7 @@
 				"type": "address"
 			}
 		],
-		"name": "pendingRbt",
+		"name": "pendingTsb",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -482,7 +482,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "accRbtPerShare",
+				"name": "accTsbPerShare",
 				"type": "uint256"
 			},
 			{
@@ -509,32 +509,6 @@
 	},
 	{
 		"inputs": [],
-		"name": "rbt",
-		"outputs": [
-			{
-				"internalType": "contract RbtToken",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "rbtPerBlock",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
 		"name": "startBlock",
 		"outputs": [
 			{
@@ -549,6 +523,32 @@
 	{
 		"inputs": [],
 		"name": "totalAllocPoint",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "tsb",
+		"outputs": [
+			{
+				"internalType": "contract TsbToken",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "tsbPerBlock",
 		"outputs": [
 			{
 				"internalType": "uint256",

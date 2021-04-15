@@ -27,21 +27,21 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const rbtPrice = usePriceCakeBusd();
+  const tsbPrice = usePriceCakeBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = rbtPrice.times(circSupply);
+  const marketCap = tsbPrice.times(circSupply);
 
-  let rbtPerBlock = 0;
-  if(farms && farms[0] && farms[0].rbtPerBlock){
-    rbtPerBlock = new BigNumber(farms[0].rbtPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let tsbPerBlock = 0;
+  if(farms && farms[0] && farms[0].tsbPerBlock){
+    tsbPerBlock = new BigNumber(farms[0].tsbPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'RBT Stats')}
+          {TranslateString(534, 'TSB Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,8 +60,8 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New RBT/block')}</Text>
-          <Text bold fontSize="14px">{rbtPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New TSB/block')}</Text>
+          <Text bold fontSize="14px">{tsbPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
